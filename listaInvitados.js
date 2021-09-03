@@ -9,8 +9,7 @@ for (let i = 1; i <= 10; i++) {
    }
    else if (ingresarInvitado == "") {
       alert("No ingreso el nombre correctamente, debe ingresarlo otra vez");
-      ingresarInvitado = prompt("Ingresar nombre del invitado:");
-      alert("N° de invitado: "+ i + "\nNombre: "+ ingresarInvitado);
+      --i;
    }
    else if (ingresarInvitado == "Nicolas" || ingresarInvitado == "Lucia") {
       alert ("No se pudo agregar a esta persona, se encuentra en la lista negra.");
