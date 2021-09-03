@@ -14,6 +14,6 @@ for (let i = 1; i <= 10; i++) {
    }
    else if (ingresarInvitado == "Nicolas" || ingresarInvitado == "Lucia") {
       alert ("No se pudo agregar a esta persona, se encuentra en la lista negra.");
-      continue;
+      --i;
    }
 }
